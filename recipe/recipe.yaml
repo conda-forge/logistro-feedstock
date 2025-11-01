@@ -1,6 +1,6 @@
 context:
   name: logistro
-  version: "2.0.0"
+  version: "2.0.1"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-    sha256: 8aec9a8c5842ce649e0767c7515b8d26142a11e6732ca806de496b6e371e1f15
+    sha256: 8446affc82bab2577eb02bfcbcae196ae03129287557287b6a070f70c1985047
 
 build:
   number: 0
